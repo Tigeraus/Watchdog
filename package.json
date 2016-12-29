@@ -1,0 +1,18 @@
+{
+  "name": "watchdog",
+  "version": "0.0.1",
+  "description": "A watching service for generating catalog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://121.42.166.33/tigeraus/mommy-watch.git"
+  },
+  "author": "huzi",
+  "license": "MIT",
+  "dependencies": {
+    "watch": "^1.0.1"
+  }
+}
