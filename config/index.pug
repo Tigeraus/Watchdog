@@ -1,0 +1,15 @@
+doctype html
+html(lang='zh_CN')
+  head
+    title File Share
+    meta(charset='utf-8')
+  body
+    h1 #{welcomewords}
+    h2 File list
+    h6 Updated at: #{uptime}
+
+    - var fl =  filelist
+      each item in fl
+        li
+          a(href=item.path) #{item.name}
+
